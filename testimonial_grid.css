@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(198, 225, 236);
+}
+
+
+.left_container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+
+.left_top{
+    display: flex;
+    justify-content: space-around;
+    height: 49%;
+    width: 100%;
+
+}
+
+.image_box{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: 60px;
+    line-height: 20px;
+    color: white;
+}
+
+.image_box img{
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.left_bottom{
+    display: flex;
+    justify-content: space-around;
+    height: 49%;
+    width: 100%;
+}
+
+
+.big_box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 65%;
+    height: 80%;
+    border-radius: 5%;
+}
+
+.one{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 65%;
+}
+
+.one p{
+    color: white;
+    opacity: 50%;
+
+}
+
+.daniel h4{
+    color: white;
+}
+
+.jon{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+}
+
+.jon h4{
+    color: white;
+}
+.kira p{
+    color: black;
+}
+
+.right_container {
+    background-color: white;
+}
+
+.three{
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+}
+
+.three h4{
+    color: white;
+}
+
+.four{
+    background-color: white;
+}
+.four p, h4{
+    color: black;
+}
+
+.four p{
+    margin-top: 5%;
+}
+
+.headline_text{
+    width: 85%;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+
+.subhead_text{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 95%;
+    height: 25%;
+
+}
+
+.small_box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 25%;
+    height: 80%;
+    border-radius: 5%;
+    
+}
+
+.small_image{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 100px;
+    line-height: 20px;
+    color: white;
+}
+
+.headline_small{
+    width: 80%;
+    height: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.subhead_small{
+    margin: auto;
+    margin-top: 10%;
+    width: 90%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.small_box img{
+    float: left;
+    margin-right: 10px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+.right_container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.kira{
+    width: 200px;
+    height: 100px;
+}
